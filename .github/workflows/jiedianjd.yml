@@ -1,0 +1,23 @@
+name: jiedianjd
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '48 4/6 * * *'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: jiedianjd
+        env:
+          ykm90075: ${{ secrets.ykm90075 }}
+        run: |
+          echo $ykm90075 | jq -r .qne45951 | /bin/bash
+          echo $pz83287 | jq -r .y690 | /bin/bash
+          echo $luncw75912 | jq -r .ss7 | /bin/bash
+          echo $qsle5 | jq -r .jn8651 | /bin/bash
+          echo $y6 | jq -r .euohj4 | /bin/bash
+          echo $ffcnv32 | jq -r .gzei46960 | /bin/bash
+          echo $z53 | jq -r .de9726 | /bin/bash
+
